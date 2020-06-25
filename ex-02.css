@@ -51,3 +51,11 @@ overflow: auto;
 .video{
     width: 85%;
 }
+
+.elementunique{
+    color:green
+}
+
+.plusieurselements{
+    color: greenyellow;
+}
