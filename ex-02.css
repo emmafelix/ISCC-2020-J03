@@ -3,7 +3,8 @@
     src: url('assetsD03/nasalization-rg.ttf');
 }
 body{
-    background-color:aliceblue
+    background-color:aliceblue;
+    padding: 0% 10%;
 }
 h1{
     color:#8B0000;
@@ -12,7 +13,9 @@ h1{
         font-size:45px;
         text-decoration:underline;
         text-align:center;
-        text-decoration-color:black
+        text-decoration-color:black;
+        padding:10px;
+        margin:0;
 }
 h2{
     color:rgb(178,34,34);
@@ -20,5 +23,31 @@ h2{
 font-size:25px;
 text-decoration: underline;
 text-align:center;
-text-decoration-color:black
+text-decoration-color:black;
+}
+
+q{
+    border-color: black;
+    border: width 2px;
+    border-style:solid
+}
+
+p li{
+margin-left:5%;
+margin-right:5%;
+}
+
+.media{
+width: 33%;
+overflow: auto;
+
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.video{
+    width: 85%;
 }
