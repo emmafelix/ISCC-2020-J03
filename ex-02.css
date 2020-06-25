@@ -1,8 +1,9 @@
 body{
-    background-color:darkslategrey
+    background-color:aliceblue
 }
 h1{
-    color:#8B0000
+    color:#8B0000;
+    background-color : rgba(0,0,0,0.2)};
 }
 h2{
     color:rgb(178,34,34)
